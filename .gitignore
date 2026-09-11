@@ -1,0 +1,22 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+
+# Dados sensiveis
+.env
+data/raw/*
+data/staging/*
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Cobertura de testes
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
