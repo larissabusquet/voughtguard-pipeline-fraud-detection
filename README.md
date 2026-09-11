@@ -14,6 +14,7 @@ Outros achados:
 
 ## Estrutura do repositório
 
+```
 voughtguard-pipeline-fraud-detection/
 ├── .env.example
 ├── .gitignore
@@ -22,34 +23,35 @@ voughtguard-pipeline-fraud-detection/
 ├── Contributing.md
 │
 ├── data/
-│ ├── raw/ # dataset original — não commitado
-│ ├── staging/ # dados intermediários — não commitado
-│ └── processed/
-│ ├── ranking_tipo_transacao_fraude.csv
-│ ├── top_merchant_risco.csv
-│ └── relatorio_qualidade.csv
+│   ├── raw/              # dataset original — não commitado
+│   ├── staging/          # dados intermediários — não commitado
+│   └── processed/
+│       ├── ranking_tipo_transacao_fraude.csv
+│       ├── top_merchant_risco.csv
+│       └── relatorio_qualidade.csv
 │
 ├── src/
-│ ├── config.py
-│ ├── pipeline.py
-│ ├── limpeza.py
-│ ├── transformacao.py
-│ ├── qualidade.py
-│ └── tabelas_analiticas.py
+│   ├── config.py
+│   ├── pipeline.py
+│   ├── limpeza.py
+│   ├── transformacao.py
+│   ├── qualidade.py
+│   └── tabelas_analiticas.py
 │
 ├── tests/
-│ ├── fixtures/
-│ ├── test_limpeza.py
-│ └── test_transformacao.py
+│   ├── fixtures/
+│   ├── test_limpeza.py
+│   └── test_transformacao.py
 │
 ├── notebooks/
-│ ├── exploracao.ipynb
-│ ├── exploracao_limpeza.ipynb
-│ └── analise_fraude.ipynb
+│   ├── exploracao.ipynb
+│   ├── exploracao_limpeza.ipynb
+│   └── analise_fraude.ipynb
 │
 └── docs/
-├── orquestracao.md
-└── orientacoes-desafio.md
+    ├── orquestracao.md
+    └── orientacoes-desafio.md
+```
 
 
 ## Como rodar o projeto
